@@ -1,0 +1,19 @@
+.block1 {
+    background-color: rgb(216, 223, 255);
+    overflow: scroll;
+    width: 1000px;
+    height: 800px;
+}
+.block {
+    background-color: rgb(209, 160, 131);
+    box-sizing: border-box;
+    display: inline-block;
+    width: 240px;
+    height: 200px;
+    margin: 5px;
+    padding: 30px 20px;
+    border: 1px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px;
+    
+}
