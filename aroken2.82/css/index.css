@@ -1,0 +1,143 @@
+.hero {
+    position: relative;
+    padding-top: 80px;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    bottom: 106px;
+    z-index: -1;
+    width: 100%;
+    height: 48px;
+    background: url("../photos/decor-large.svg");
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.hero h1 {
+    margin-bottom: 40px;
+    font-family: Oswald;
+    font-style: SemiBold;
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 115%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.hero h1 strong {
+    font-weight: 600;
+    color: #3596ed;
+}
+
+.hero-text {
+    margin-bottom: 140px;
+}
+
+
+.hero-image {
+    position: relative;
+    display: flex;
+}
+
+.button {
+    display: inline-block;
+    background-color: #3596ed;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 19px 32px;
+    font-family: Ubuntu;
+    font-style: Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2%;
+    text-align: center;
+    text-transform: uppercase;
+    transition: opacity 0.2s;
+}
+
+.button:hover {
+    opacity: 0.85;
+}
+
+.hero-choose {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 161px;
+    height: 86px;
+    text-align: center;
+    padding: 22px;
+    border: 1px solid #535755;
+    background: rgba(255, 255, 255, 0.9);
+
+}
+
+.news-container {
+    display: flex;
+    gap: 28px;
+}
+
+.news-article {
+    max-width: 284px;
+    border: 1px solid #d3cbd9;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.news-article img {
+    display: block;
+}
+
+.news-article footer {
+    padding: 0 20px 20px;
+}
+
+.news-info {
+    padding: 20px 20px 0;
+    margin-bottom: 12px;
+}
+
+.news-date {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.news-text {
+    color: #2c332f;
+}
+
+.news-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #3596ed;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.news-link::after {
+    display: inline-block;
+    content: "";
+    width: 22px;
+    height: 9px;
+    background-image: url("../photos/arrow.svg");
+}
+
+h2.article-title {
+    margin-bottom: 40px;
+}
