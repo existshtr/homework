@@ -1,0 +1,98 @@
+html {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+section {
+    margin-bottom: 140px;
+}
+
+.text-subscription {
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #858e8a
+}
+
+p.text {
+    color: #535755;
+    font-family: Ubuntu;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+
+}
+
+.title-medium {
+    color: rgba(44, 51, 47, 1);
+    font-family: Oswald;
+    font-style: Medium;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 115%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+    outline: 2px solid #3596ed;
+    outline-offset: 1px;
+}
+
+@media (width <=992px) {
+    .container {
+        max-width: 768px;
+    }
+}
+@media (width <=768px) {
+    .title-medium {
+        font-size: 22px;
+    }
+}
+
+@media (width <=512px) {
+    section {
+        margin-bottom: 80px;
+    }
+}
